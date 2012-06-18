@@ -1,30 +1,19 @@
-.wrap {
-	width:80%;
-	min-width:600px;
-	margin: auto;
-	background-color: green;
-	overflow: heading;
-}
-
-.content, aside {
-	height:600px;
-}
-
-
-.content{
-	background: red;
-	float: left;
-	width: 80%;
-}
-
-aside{
-	background-color: brown;
-	float: left;
-	width: 20%;
-}
-
-aside ul{
-	list-style:none;
-	padding-left:0 ;
+body {
+	font-family:sans-serif;
 
 }
+
+li{
+	display: inline;
+	padding-right:10px;
+
+}
+ul a {
+
+text-decoration:none;
+color: #999;
+ }
+
+ ul a:hover {
+ 	text-decoration: underline;
+ }
