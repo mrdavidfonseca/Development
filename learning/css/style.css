@@ -1,13 +1,30 @@
-body{
-	background-color: #e3e3e3;
-	font-family:  sans-serif;
-}
-blockquote {
-	border: 1px solid white ;
-	text-align: center;
-	margin-left: 0;
-}
-.wrap{
-	width: 600px;
+.wrap {
+	width:80%;
+	min-width:600px;
 	margin: auto;
+	background-color: green;
+	overflow: heading;
+}
+
+.content, aside {
+	height:600px;
+}
+
+
+.content{
+	background: red;
+	float: left;
+	width: 80%;
+}
+
+aside{
+	background-color: brown;
+	float: left;
+	width: 20%;
+}
+
+aside ul{
+	list-style:none;
+	padding-left:0 ;
+
 }
