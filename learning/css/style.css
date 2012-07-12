@@ -1,25 +1,93 @@
-.container_12 {
-	background:red;	
+#drop {
+	float: left;	
 }
 
-nav{
-	background:orange;
-}
-nav li {
-	display:inline; 
-	margin-left:0;
-	margin-right:0;
-}
-aside{
-	background:green;	
+#drop > li {
+	float: left;
 }
 
-.primary{
-	background: #e3e3e3;
+#drop li a {
+	display: block;
+		height:13px;
+		line-height:3em;
+		padding: 0 1.5em;
+		text-decoration:none;
+	}
+
+#drop ul {
+	position: absolute;
+	display: none;
+z-index: 999;
+	}
+
+#drop ul li a {
+	width:110px;
+}
+
+#drop li:hover ul {
+	display: block;
+
+}
+/*
+*************
+* =dropmenu top.
+*************
+*/
+
+.contact  {
+	width: 955px;
+	height:139px;
+	margin: 0 auto;
+  background-color: #e3e3e3e;
+  text-align:center;
+}
+
+h2 {
+	margin-right:990px;
+	padding-bottom:5px;
+	text-align: left;
+	line-height:3px;
 
 }
 
-header{
-	background:yellow;
+
+
+
+.select {
+	float: left;	
 }
-.main { margin: 30px  0;}
+
+.select > li {
+	float: left;
+}
+
+.select li a {
+	 display: block;
+		height:13px;
+		line-height:3em;
+		padding: 0 1.5em;
+		text-decoration:none;
+	}
+
+.select ul {
+	position: absolute;
+	display: none;
+z-index: 999;
+	}
+
+.select ul li a {
+	width:110px;
+}
+
+.select li:hover ul {
+	display: block;
+
+}
+
+
+
+.time{
+	padding: 30px;
+	margin: 90px;
+	
+}
