@@ -1,29 +1,51 @@
-.contact {
+.king {
 	width:960px;
 	margin:0px auto;
-	position: relative;
-	
 	
 
 }
+.contactone .name {
+float:left;
+
+
+}
+
+.contactone .email {
+float: left;
+clear: left;
+}
+
+
+
+
+
+
 
 h2{
 	padding: 5px;
-	background-color:orange;
+	background-color;
 
 }
 
 
 .name  {
- 	width:400px;
+ 	width:259px;
  	background-color: red;
- 	margin-top:10px
- 	
+ 	float: left	;
+ 	padding-top:10px;
+	}
 
- 	}
+ #name{
+ 	width:107px;
+}
 
 
+#last {
+	width:142px;
+}
 
+
+/*
 li [type=submit] {
 position: absolute;
  left:200px;
@@ -173,11 +195,37 @@ background-color:#cdd0d0;
 
 .message{
 	margin: 0 auto;
+	position: relative;
 	width:960px;
 	height:328px;
 	background-color: #f2f2f2;
 
 }
+
+.message ul {
+	border: solid 2px orange;
+}
+
+.message ul li a  {
+	position: relative ;	
+	width:500px;
+	top: 97px;
+	left: 395.50px;
+}
+
+.message li {
+
+ padding :30px  ;
+
+}
+	
+
+
+
+
+
+
+
 
 /*
 *******************8
@@ -192,7 +240,97 @@ background-color:#cdd0d0;
 	width: 960px;
 	height:433px;
 	background-color:#ffffff;
+	position: relative;	
 
+
+
+}
+
+
+
+.updates #doc {
+	top:370px;
+	position: absolute;
+	width:198px;
+	left: 50px;
+
+}
+
+.updates #lay{
+
+position: absolute;
+width:184;
+top:370px;
+left: 300px;
+
+
+
+}
+
+.updates #fish{
+position: absolute;	
+width:126px;
+top:370px;
+left: 500px;
+
+
+
+}
+
+.updates #com1 {
+position: absolute;
+width:136px;
+top: 385px;
+left:52px;
+}
+
+.updates #com2{
+position: absolute;
+width:136px;
+top: 385px;
+left:300px
+}
+
+.updates #com3{
+	position: absolute;
+	width:136px;
+	top:385px;
+	left:500px;
+}
+
+
+.updates #more  {
+	position: absolute;
+	width:77px;
+	left:900px;
+
+
+
+
+
+}
+
+.updates h3{
+	width: 110px;
+
+}
+
+.updates ul{
+
+	position: absolute;
+	top: -0px;
+	left: 100px;
+
+
+
+}
+
+
+
+
+.updates  li  {  
+ display: inline;  
+  margin: 10px; 
 }
 
 /*
