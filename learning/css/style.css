@@ -161,11 +161,34 @@ float: left;
 .footer {
 	width: 960px;
 	margin: 0 auto; 
-	border: purple 2px solid ;
 	
+
+	
+
+}
+.feet {
+	
+	float: left;
+	width:480px;
+	
+
+}
+
+.feet  li {
+	display: inline;
+	
+
 }
 
 
+
+.copyright {
+	width: 480px;
+	float: right;
+	text-align:right;
+
+
+}
 
 
 
