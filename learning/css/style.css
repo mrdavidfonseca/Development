@@ -1,389 +1,170 @@
 .king {
-	width:960px;
-	margin:0px auto;
-	
+	border: blue 2px solid; 
+	margin: 0 auto;
+	width: 960px;
+	height:238px;
+}
+
+.contactone{
+	width:320px;
+	height:238px;
+	border: black 2px solid ;
+	float:left ;
 
 }
-.contactone .name {
+ul {
+	text-decoration:none;
+}
+
+
+ .name .email {
 float:left;
 
 
 }
 
-.contactone .email {
+
+label{
 float: left;
+}
+
+ #name {
+	width: 100px;
+	float:left ;
+	clear:left ;
+
+}
+
+#last {
+width :143px;
+float: left ;
 clear: left;
 }
 
+.email{
+	float:left ;
+	padding:20px;
+}
 
-
-
-
-
-
-h2{
-	padding: 5px;
-	background-color;
-
+#mail{
+	float: left ;
 }
 
 
-.name  {
- 	width:259px;
- 	background-color: red;
- 	float: left	;
- 	padding-top:10px;
-	}
-
- #name{
- 	width:107px;
+.contacttwo{
+width:320px;
+border: red 2px solid ;
+float: left;
 }
 
-
-#last {
-	width:142px;
+.contactthree{
+	width:309px ;
+	float:right ;
+	border: brown 2px solid ;
 }
 
 
 /*
-li [type=submit] {
-position: absolute;
- left:200px;
- height:30px;
- width:10px;	
-}
-
-.email
-{
-	width:135px;
-	position: absolute;
-	top:120px;
-	background-color:green;
-
-}
-
-.comments textarea {
-	position: absolute;
-	width:368px;
-	height:120px;
-	padding: 10px;
-	background-color:yellow;
-	left:450px;
-}
-
-
-.dropdown{
-
-	position: absolute;
-	background-color:purple;
-	width:50px;
-	left:900px;
-	font-size: 100%;
-	top:100px;
-}
-
-.dropdown a {
-	width:50px;
-	height:50px;
-
-}
-
-.contact{
-
-	background-color:#cbcece;
-	display: block;
-	height:240px;
-}
-/*
-****************
-*=contact info
-****************
+**********************************88
+*=giving
+*******************************88
 */
 
 .give{
-	
-	width:960px;
-	height:20px;
-	display: block;
-	position:relative;
-	background-color: #d0d3d3;
+	width: 960px;
+	border: 2px solid #999;
 	margin: 0 auto;
 }
 
 
-.select li  {
-display:inline;
-width:960px;
-margin: 0 auto;
-
-
+.give li {
+	display: inline;
 
 }
 
-
-
-
-
-
 /*
-****************
-*=select
-****************
+*****************************8
+*=church logo 
+********************************
 */
+
+
 .church {
-
-	width:960px;
-	height:128px;
-	position: relative;
-	display: block;
-	background-color:#f2f2f2;
-	text-align: center;
-	margin: 0 auto;}
-
-
-.new li {  
-  display: inline; 
-  padding: 5px
-  position: absolute;
-  text-align: left;
-}
-
-
-/*
-***********
-*=nlc logo
-***********
-*/
-
-	.time {
+	width: 960px;
 	margin: 0 auto;
+	border: red 2px solid ;
+
+}
+
+.church li {
+	display: inline;
+}
+
+/*
+******************************888
+*=count down
+******************************8888
+*/
+
+
+.time {
 	width:960px;
-	height:27px;
-	background-color:#ffffff;
-	display: block;
-
-
+	margin: 0 auto;
+	border: 2px solid #999;
 }
 
 
 /*
-********************
-*= online service
-*****************
-*/
-
-
-.map{
-margin: 0 auto;
-width:960px;
-height:283px;
-background-color:#cdd0d0;
-
-
-
-}
-
-
-
-/*
-*********************8
+********************************
 *=map
-**********************
+*********************************8
 */
 
 
+.map {
+	width: 960px; 
+	margin: 0 auto;
+	border: green 2px solid ;
+}
+
+/*
+***********************************
+*= previus service
+********************************88888
+*/
 
 .message{
-	margin: 0 auto;
-	position: relative;
 	width:960px;
-	height:328px;
-	background-color: #f2f2f2;
-
-}
-
-.message ul {
-	border: solid 2px orange;
-}
-
-.message ul li a  {
-	position: relative ;	
-	width:500px;
-	top: 97px;
-	left: 395.50px;
-}
-
-.message li {
-
- padding :30px  ;
-
-}
-	
-
-
-
-
-
-
-
-
-/*
-*******************8
-*=recent messages
-*******************8
-*/
-
-
-.updates {
-
 	margin: 0 auto;
-	width: 960px;
-	height:433px;
-	background-color:#ffffff;
-	position: relative;	
-
-
-
-}
-
-
-
-.updates #doc {
-	top:370px;
-	position: absolute;
-	width:198px;
-	left: 50px;
-
-}
-
-.updates #lay{
-
-position: absolute;
-width:184;
-top:370px;
-left: 300px;
-
-
-
-}
-
-.updates #fish{
-position: absolute;	
-width:126px;
-top:370px;
-left: 500px;
-
-
-
-}
-
-.updates #com1 {
-position: absolute;
-width:136px;
-top: 385px;
-left:52px;
-}
-
-.updates #com2{
-position: absolute;
-width:136px;
-top: 385px;
-left:300px
-}
-
-.updates #com3{
-	position: absolute;
-	width:136px;
-	top:385px;
-	left:500px;
-}
-
-
-.updates #more  {
-	position: absolute;
-	width:77px;
-	left:900px;
-
-
-
-
-
-}
-
-.updates h3{
-	width: 110px;
-
-}
-
-.updates ul{
-
-	position: absolute;
-	top: -0px;
-	left: 100px;
-
-
-
-}
-
-
-
-
-.updates  li  {  
- display: inline;  
-  margin: 10px; 
+	border: yellow 2px solid ;
 }
 
 /*
-***********************88
-*=updates page
-**********************
+***********************************888
+*=updates
+*************************************8
 */
 
+.updates{
+	width: 960px;
+	margin: 0 auto;
+	border: azure 2px solid ;
+}
+
+/*
+***********************************888
+*=footer
+**********************************
+*/
 
 
 .footer {
-	 margin: 0 auto;
-	 width: 960px;
-	 height:72px;
-	 background-color:#f2f2f2;
-	 position: relative;
-	 
-}
-
-.footer li {
-	display: inline;
+	width: 960px;
+	margin: 0 auto; 
+	border: purple 2px solid ;
 	
 }
 
-footer ul {
-	text-align:left;
-	text-indent: 80px;
-}
-
-.feet {
-	position: absolute;
-	word-spacing: 34px;
-	top:32.33px;
-	left:75.33px;
-
-}
-
-.copyright{
-	position: absolute;
-	left:790px;
-	top:32px;
-
-}
-
-/*
-**************888
-footer
-*************88
-*/
-
-a {
-	text-decoration: none;
-}
 
 
 
@@ -391,85 +172,18 @@ a {
 
 
 
-/*
-********************
-#drop {
-	float: left;	
-}
-
-#drop > li {
-	float: left;
-}
-
-#drop> li >a {
-	display: block;
-		height:13px;
-		line-height:3em;
-		padding: 0 1.5em;
-		text-decoration:none;
-	}
-
-#drop ul {
-	position: absolute;
-	display: none;
-z-index: 999;
-	}
-
-#drop ul li a {
-	width:110px;
-}
-
-#drop li:hover ul {
-	display: block;
-
-
-}
-*************************8
-/*
-
-/*
-*************
-* =dropmenu top.
-*************
-/*
 
 
 
-.select {
-	float: left;	
-}
-
-.select > li a {
-	float: left;
-}
-
-.select >li >a {
-	 display: block;
-		height:120px;
-		line-height:3em;
-		padding: 0 1.5em;
-		text-decoration:none;
-	}
-
-.select ul {
-	position: absolute;
-	display: none;
-z-index: 999;
-	}
-
-.select ul li a {
-	width:110px;
-}
-
-.select li:hover ul {
-	display: block;
-
-}
 
 
-/*
-******************
-*=second dropdown menu
-*******************
-*/
+
+
+
+
+
+
+
+
+
 
