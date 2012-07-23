@@ -1,4 +1,4 @@
-.king {
+.head-wraper{
 	border: blue 2px solid; 
 	margin: 0 auto;
 	width: 960px;
@@ -138,6 +138,25 @@ float: left;
 	margin: 0 auto;
 	border: yellow 2px solid ;
 }
+
+
+.lay {
+	width:320px;
+;
+	float: left;
+}
+
+.fish {
+	width: 320px;
+	float: left;
+}
+
+.doc{
+	width: 320px;
+	float: left;
+}
+
+
 
 /*
 ***********************************888
