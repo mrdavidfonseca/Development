@@ -79,6 +79,7 @@ float: left;
 
 .give li {
 	display: inline;
+	float: left;
 
 }
 
@@ -91,6 +92,7 @@ float: left;
 
 .church {
 	width: 960px;
+	height:125px;
 	margin: 0 auto;
 	border: red 2px solid ;
 
@@ -98,8 +100,26 @@ float: left;
 
 .church li {
 	display: inline;
+	
+
+}
+.church h1 {
+	background: url(../images/png/NLC-logo-2_03.png) no-repeat;
+	float:left;
+	width:340px;
+	margin-left:200px;
+
+
+	
 }
 
+
+
+
+.options{
+	float: right;
+	clear: both;
+}
 /*
 ******************************888
 *=count down
@@ -109,8 +129,18 @@ float: left;
 
 .time {
 	width:960px;
+	height: 30px;
 	margin: 0 auto;
 	border: 2px solid #999;
+}
+
+.now{
+	float: right;
+	
+}
+
+.time p  {
+	float: left;
 }
 
 
@@ -136,25 +166,19 @@ float: left;
 .message{
 	width:960px;
 	margin: 0 auto;
+	height:325px;
 	border: yellow 2px solid ;
 }
 
+.message .old {
+	float:right;
+	display:inline-block;
 
-.lay {
-	width:320px;
-;
-	float: left;
 }
 
-.fish {
-	width: 320px;
-	float: left;
-}
 
-.doc{
-	width: 320px;
-	float: left;
-}
+
+
 
 
 
@@ -167,7 +191,56 @@ float: left;
 .updates{
 	width: 960px;
 	margin: 0 auto;
+	height:433px;
 	border: azure 2px solid ;
+}
+.updates .head-of-update {
+	float: left;
+	clear:both;
+}
+
+.updates .campus {
+	float: left;
+	clear: both;
+}
+
+.lay {
+	width:320px;
+
+	float: left;
+}
+
+.fish {
+	width: 320px;
+	float: left;
+}
+
+.doc{
+	width: 320px;
+	float: left;
+	clear: left;
+}
+
+.updates .color-red {
+	background: url(../images/png/doctor_03.png) no-repeat;
+}
+.updates .color-blue{
+	background: url(../images/png/overlay_03.png) no-repeat;
+}
+.updates .color-green{
+	background: url(../images/png/fish_03.png) no-repeat;
+	height:300px;
+}
+
+
+
+.updates li  {
+	display: inline;
+}
+
+#more{
+	float: right;
+
 }
 
 /*
@@ -180,6 +253,7 @@ float: left;
 .footer {
 	width: 960px;
 	margin: 0 auto; 
+	height:75px;
 	
 
 	
