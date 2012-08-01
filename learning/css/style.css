@@ -1,3 +1,16 @@
+
+/*
+********************
+body
+*********************
+*/
+
+body a {
+	text-decoration:none
+	;
+}
+
+
 .head-wraper{
 	border: blue 2px solid; 
 	margin: 0 auto;
@@ -72,6 +85,7 @@ float: left;
 
 .give{
 	width: 960px;
+	height:20px;
 	border: 2px solid #999;
 	margin: 0 auto;
 }
@@ -150,11 +164,22 @@ float: left;
 *********************************8
 */
 
+.map p {
+background: url(../images/map.jpg) no-repeat;
+width:306px;
+height:203px;
+float: left;
+}
 
 .map {
 	width: 960px; 
 	margin: 0 auto;
 	border: green 2px solid ;
+}
+
+.map ul {
+	float: left;
+
 }
 
 /*
@@ -171,11 +196,34 @@ float: left;
 }
 
 .message .old {
-	float:right;
+	float:left;
 	display:inline-block;
 
 }
 
+
+.message p {
+	 background: url(../images/video.jpg)  no-repeat;
+	 height: 170px;
+	 width:300px;
+	 float: left ;
+	 clear: both ;
+	 margin-left:66px;
+	 margin-top: 79px;
+	 border: 14px solid darkgrey;
+}
+
+.old {
+	margin-top:80px;
+}
+
+.old a {
+	display: block;
+	border: 1px solid black ;
+  padding: 8px;
+
+
+}
 
 
 
@@ -202,6 +250,11 @@ float: left;
 .updates .campus {
 	float: left;
 	clear: both;
+
+}
+
+.updates li  {
+	display: inline;
 }
 
 .lay {
@@ -223,23 +276,35 @@ float: left;
 
 .updates .color-red {
 	background: url(../images/png/doctor_03.png) no-repeat;
+	height:232px;
+	width: 224px;
+	border: 14px solid lightgrey ;
 }
 .updates .color-blue{
 	background: url(../images/png/overlay_03.png) no-repeat;
+	height:232px;
+	width: 224px;
+	border: 14px solid lightgrey ;
 }
 .updates .color-green{
 	background: url(../images/png/fish_03.png) no-repeat;
-	height:300px;
+	height:232px;
+	width: 224px;
+	border: 14px solid lightgrey ;
 }
 
 
 
-.updates li  {
+.updates  ul li a {
 	display: inline;
+	text-decoration: none;s
 }
 
 #more{
 	float: right;
+
+}
+
 
 }
 
